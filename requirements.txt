@@ -1,0 +1,6 @@
+streamlit
+torch
+sentencepiece
+numpy
+pandas
+matplotlib
