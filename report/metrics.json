@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-17T09:34:02.941099Z",
+  "config": {
+    "batch_size": 32,
+    "lr": 0.0002,
+    "epochs": 5,
+    "d_model": 256,
+    "nhead": 2,
+    "enc_layers": 2,
+    "dec_layers": 2,
+    "dropout": 0.1,
+    "decoding_method": "greedy"
+  },
+  "best_val_bleu": 0.2372333553788245,
+  "test_metrics": {
+    "loss": 3.684500770025266,
+    "bleu": 0.23161974338694885,
+    "rouge_l": 0.0,
+    "chrf": 0.0,
+    "perplexity": 39.825235534872554
+  },
+  "checkpoint": "/kaggle/working/empathetic-bot/checkpoints/best_model.pt",
+  "test_samples": 6464
+}
